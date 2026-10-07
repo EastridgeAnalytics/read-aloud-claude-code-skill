@@ -1,0 +1,13 @@
+# created by install.ps1 or by the reader while it runs; never commit these
+.venv/
+__pycache__/
+models/*.onnx
+models/*.bin
+config.json
+state.json
+state.json.tmp
+control.txt
+control.txt.taken
+last.log
+last_reply.md
+*.wav
